@@ -17,8 +17,8 @@ Ensure you have the following installed:
 
 1. *Clone the repository*:
    
-   git clone https://github.com/patug/storefront.git
-   cd storefront
+   git clone https://github.com/khedkaraditya/django_csv.git
+   cd project
 
    Create and activate a virtual environment:
 
@@ -28,15 +28,14 @@ python3 -m venv venv
 source venv/bin/activate
 
 Install dependencies:
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 Set up the database:
-python manage.py migrate
+   python manage.py migrate
 
 Run the development server:
-
-python manage.py runserver
+  python manage.py runserver
 
 Access the application:
 Open your web browser and navigate to http://127.0.0.1:8000/.
