@@ -1,26 +1,42 @@
+# django_csv
+
 A Django-based web application that allows users to upload CSV files, performs data analysis using pandas and numpy, and displays the results and visualizations on the web interface.
 
-Getting Started
+## Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine.
 
-Prerequisites
+### Prerequisites
+
 Ensure you have the following installed:
+- Python 3.x
+- pip (Python package installer)
+- virtualenv
 
-Python 3.x
-pip (Python package installer)
-virtualenv
-Installation
-Clone the repository:
-git clone https://github.com/patug/storefront.git
-cd storefront
-Create and activate a virtual environment: python3 -m venv venv
+### Installation
 
-On Windows, use venv\Scripts\activate
+1. *Clone the repository*:
+   
+   git clone https://github.com/patug/storefront.git
+   cd storefront
 
-Install dependencies: pip install -r requirements.txt
+   Create and activate a virtual environment:
 
-python manage.py migrate
 
-Run the development server: python manage.py runserver
+Copy code
+python3 -m venv venv
+source venv/bin/activate
 
+Install dependencies:
+pip install -r requirements.txt
+
+
+Set up the database:
+python manage.py migrate
+
+Run the development server:
+
+python manage.py runserver
+
+Access the application:
 Open your web browser and navigate to http://127.0.0.1:8000/.
