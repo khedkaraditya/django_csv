@@ -2,7 +2,7 @@
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/django-csv-upload-analysis.git
+   git clone https://github.com/khedkaraditya/django_csv.git
    cd django-csv-upload-analysis
    ```
 
