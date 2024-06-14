@@ -3,7 +3,7 @@
 
    ```sh
    git clone https://github.com/khedkaraditya/django_csv.git
-   cd django-csv-upload-analysis
+   cd django_csv
    ```
 
 2. **Create and activate a virtual environment:**
